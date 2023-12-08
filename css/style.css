@@ -7,3 +7,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+#blog-post{
+  width: 80%;
+  max-width: 600px;
+}
+
+.blog-post {
+  
+}
