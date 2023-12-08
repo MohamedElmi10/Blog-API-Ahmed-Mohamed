@@ -9,8 +9,8 @@ async function fetchAllBlog(){
 
        <div id="blog-post">
       <div class="blog-post">
-          <h2><span class="title"></span></h2>
-          <p><span class="author" class="date"></span></p>
+          <h2><span class="title">${blog.title}</span></h2>
+          <p><span class="author" class="date">${blog.author} | ${blog.date}</span></p>
           <p><b>tags:</b><span class="tags"></span></p>
           <p><span class="content"></span></p>
           </div>
