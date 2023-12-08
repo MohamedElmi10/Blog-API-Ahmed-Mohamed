@@ -1,2 +1,8 @@
-//testing changes in git
-//Second test for git
+async function fetchAllBlog(){
+  try{
+
+  }
+  catch{
+    
+  }
+}
