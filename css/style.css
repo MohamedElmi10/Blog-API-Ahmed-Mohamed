@@ -14,5 +14,5 @@ body {
 }
 
 .blog-post {
-  
+  border-bottom: 2px solid grey;
 }
