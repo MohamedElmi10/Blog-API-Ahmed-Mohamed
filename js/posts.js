@@ -5,14 +5,15 @@ async function fetchAllBlog(){
 
     let blogsListHTML = "";
     for(let blog of blogs){
+      const truncatedContent = blog.content.substring(0,100);
       blogsListHTML += `
-
+      
        <div id="blog-post">
       <div class="blog-post">
           <h2><span class="title">${blog.title}</span></h2>
           <p><span class="author" class="date">${blog.author} | ${blog.date}</span></p>
           <p><b>tags:</b><span class="tags">${blog.tags.join(', ')}</span></p>
-          <p><span class="content"></span></p>
+          <p><span class="content">${truncatedContent}</span></p>
           </div>
           `;
     } 
