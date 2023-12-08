@@ -6,7 +6,7 @@ async function fetchAllBlog(){
     let blogsListHTML = "";
     for(let blog of blogs){
       blogsListHTML += `
-      
+
        <div id="blog-post">
       <div class="blog-post">
           <h2><span class="title"></span></h2>
@@ -14,9 +14,11 @@ async function fetchAllBlog(){
           <p><b>tags:</b><span class="tags"></span></p>
           <p><span class="content"></span></p>
           </div>
-          `
-    }
+          `;
+    } 
+    document.getElementById('blog-posts').innerHTML = blogsListHTML;
   }
+ 
   catch (error){
 console.log(error);
   }
