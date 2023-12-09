@@ -1,0 +1,14 @@
+#linkToBlogPage,
+#buttonToCreatePost {
+
+    text-decoration: none;
+}
+
+#linkToBlogPage :visited {
+    color: purple;
+
+}
+
+#buttonToCreatePost {
+    width: fit-content;
+}
