@@ -1,9 +1,14 @@
-#linkToBlogPage {
-    margin-left: 83rem;
+#linkToBlogPage,
+#buttonToCreatePost {
 
+    text-decoration: none;
 }
 
 #linkToBlogPage :visited {
     color: purple;
-    text-decoration: none;
+
+}
+
+#buttonToCreatePost {
+    width: fit-content;
 }
