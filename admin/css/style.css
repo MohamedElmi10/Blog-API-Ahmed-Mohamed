@@ -1,0 +1,9 @@
+#linkToBlogPage {
+    margin-left: 83rem;
+
+}
+
+#linkToBlogPage :visited {
+    color: purple;
+    text-decoration: none;
+}
