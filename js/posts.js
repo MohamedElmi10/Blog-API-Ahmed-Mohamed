@@ -18,7 +18,7 @@ async function fetchAllBlog(){
           </div>
           `;
     } 
-    document.getElementById('blog-post').innerHTML = blogsListHTML;
+    document.getElementById('blog-posts').innerHTML = blogsListHTML;
   }
  
   catch (error){
