@@ -1,18 +1,25 @@
 body {
   background-color: beige;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-#blog-post{
+#blog-post {
   width: 80%;
   max-width: 600px;
 }
 
 .blog-post {
   border-bottom: 2px solid grey;
+}
+
+#containerForInfo {
+  border: 3px solid burlywood;
+
+  padding: 20px;
+  border-radius: 2rem;
 }
